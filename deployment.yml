@@ -1,7 +1,5 @@
 ---
 dbtVersion: 0.18.1
 jobs:
-- name: asd
-  schedule: 0 */8 * * *
 - name: Daily Marketing
   schedule: 15 */12 * * *
