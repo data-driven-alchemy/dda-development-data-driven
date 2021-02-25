@@ -3,5 +3,3 @@ dbtVersion: 0.18.1
 jobs:
 - name: asd
   schedule: "* * * * *"
-- name: asd
-  schedule: "* * * * *"
