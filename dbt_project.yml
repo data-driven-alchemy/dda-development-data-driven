@@ -1,21 +1,21 @@
 ---
-:name: Alchemy
-:version: 1.0.0
-:config-version: 2
-:profile: default
-:source-paths:
+name: Alchemy
+version: 1.0.0
+config-version: 2
+profile: default
+source-paths:
 - models
-:analysis-paths:
+analysis-paths:
 - analysis
-:test-paths:
+test-paths:
 - tests
-:data-paths:
+data-paths:
 - data
-:macro-paths:
+macro-paths:
 - macros
-:snapshot-paths:
+snapshot-paths:
 - snapshots
-:target-path: target
-:clean-targets:
+target-path: target
+clean-targets:
 - target
 - dbt_modules
