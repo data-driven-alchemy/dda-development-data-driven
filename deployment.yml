@@ -4,5 +4,7 @@ jobs:
 - name: Daily Marketing
   schedule: 0 2 * * *
   steps:
-  - name: version
-    command: dbt --version
+  - name: run dependencies
+    command: dbt deps
+  - name: run asana
+    command: dbt run --models asana
