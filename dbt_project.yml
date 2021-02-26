@@ -19,6 +19,4 @@ target-path: target
 clean-targets:
 - target
 - dbt_modules
-vars:
-- Asana_source:
-    :Asana_schema: fivetran_Asana
+vars: []
