@@ -6,7 +6,5 @@ jobs:
   steps:
   - name: run dependencies
     command: dbt deps
-  - name: run hubspot
-    command: dbt run --models hubspot
   - name: run asana
     command: dbt run --models asana
