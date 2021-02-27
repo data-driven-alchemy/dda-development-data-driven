@@ -22,3 +22,5 @@ clean-targets:
 vars:
   hubspot_source:
     hubspot_schema: fivetran_hubspot
+  asana_source:
+    asana_schema: fivetran_asana
